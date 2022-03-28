@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define I2S(x) ((short *) x)
-
+//prueba1
 int main() {
     int i, x[10];
 

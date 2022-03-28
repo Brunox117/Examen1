@@ -4,6 +4,7 @@
 int bits[16] = { 0, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 3, 2, 3, 3, 4 };
  
 // 1. ¿Qué hace la función what?
+//el result guarda el valor que se le da a la funcion en una direccion de memoria declarada previamente y recorre cuatro bits num
 unsigned int what(unsigned int num) {
     int i, result = 0;
     i = sizeof(int)*2;

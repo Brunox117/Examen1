@@ -7,8 +7,8 @@ int bits[16] = { 0, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 3, 2, 3, 3, 4 };
 unsigned int what(unsigned int num) {
     int i, result = 0;
     i = sizeof(int)*2;
-    printf("el valor de i es %d",i);
     while (i--) {
+        printf("el valor de i es %d",i);
         result += bits[num & 0xf];
         num >>= 4;
     }

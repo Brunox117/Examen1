@@ -8,7 +8,6 @@ unsigned int what(unsigned int num) {
     int i, result = 0;
     i = sizeof(int)*2;
     while (i--) {
-        printf("el valor de i es %d",i);
         result += bits[num & 0xf];
         num >>= 4;
     }

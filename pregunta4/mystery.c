@@ -14,6 +14,7 @@ unsigned int what(unsigned int num) {
     }
 
 // 2. ¿Cuál sería el máximo número valor que puede tomar result?
+//16
     return result;
 }
  
